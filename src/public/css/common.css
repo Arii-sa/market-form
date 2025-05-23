@@ -1,0 +1,122 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+    color: black;
+  }
+
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* ヘッダー */
+.header {
+  display: grid;
+  align-items:center;
+  padding: 16px 0;
+  height: 80px;
+  background-color: black;
+  font-family:Helvetica , "游ゴシック", sans-serif;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.header__heading {
+  font-weight: lighter;
+  font-size: 32px;
+  color: white;
+  grid-column: 2;
+}
+
+
+/* コンテンツ */
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 48px;
+}
+
+.content__heading {
+  text-align: center;
+  font-weight: 100;
+  font-size: 32px;
+  font-family:Helvetica , "游ゴシック", sans-serif;
+  font-weight: bold;
+}
+
+/* ボタン */
+.btn {
+  display: block;
+  padding: 8px 32px;
+  border: none;
+  background-color: #82756A;
+  color: #FFF;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ページネーション */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.pagination li:not(.active) {
+  padding: 4px 12px;
+}
+
+.pagination li:not(:last-child) {
+  border-right: none;
+}
+
+.pagination a {
+  text-decoration: none;
+}
+
+.pagination__link {
+  text-decoration: none;
+}
+
+.active {
+  padding: 4px 12px;
+  color: #FFF;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 48px;
+}
+
+.content__heading {
+  text-align: center;
+  font-weight: 100;
+  font-size: 32px;
+  font-family:Helvetica , "游ゴシック", sans-serif;
+  font-weight: bold;
+}
+
+/* ボタン */
+.btn {
+  display: block;
+  padding: 8px 100px;
+  width: 100%;
+  border: none;
+  background-color: #f44444;
+  color: #FFF;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
